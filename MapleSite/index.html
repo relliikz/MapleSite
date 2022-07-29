@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class = "row">
+<div class = "col-sm-3">
+
+  <!--Side menu and drop down buttons-->
+
+  <div id ="SideMenu" class="container-fluid p-5 bg-warning text-white opacity-75">
+
+    <p>Totem 1</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="totemOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Totem 1
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="totemOne">
+      <li><button class="dropdown-item" type="button" onclick="changeT0()">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" onclick="changeT1()">Dark totem</button></li>
+      <li><button class="dropdown-item" type="button" id="2two">Gold Totem</button></li>
+      <li><button class="dropdown-item" type="button" id="3three">Silver Totem</button></li>
+      <li><button class="dropdown-item" type="button" id="4four">Afterlands Totem</button></li>
+    </ul>
+
+    <br></br>
+    <p>Totem 2</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="totemTwo" data-bs-toggle="dropdown" aria-expanded="false">
+      Totem 2
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="totemTwo">
+      <li><a class="dropdown-item" href="#">Dark totem</a></li>
+      <li><a class="dropdown-item" href="#">Gold Totem</a></li>
+      <li><a class="dropdown-item" href="#">Silver Totem</a></li>
+      <li><a class="dropdown-item" href="#">Afterlands Totem</a></li>
+    </ul>
+
+    <br></br>
+    <p>Totem 3</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="totemThree" data-bs-toggle="dropdown" aria-expanded="false">
+      Totem 3
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="totemThree">
+      <li><a class="dropdown-item" href="#">Dark totem</a></li>
+      <li><a class="dropdown-item" href="#">Gold Totem</a></li>
+      <li><a class="dropdown-item" href="#">Silver Totem</a></li>
+      <li><a class="dropdown-item" href="#">Afterlands Totem</a></li>
+    </ul>
+
+    <br></br>
+    <p>Ring 1</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 1
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringOne">
+      <li><a class="dropdown-item" href="#">Endless Terror</a></li>
+      <li><a class="dropdown-item" href="#">Guardian Angel Slime Ring</a></li>
+      <li><a class="dropdown-item" href="#">Superior Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Reinforced Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Solid Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Kanna's Treasure</a></li>
+      <li><a class="dropdown-item" href="#">Meister Ring</a></li>
+      <li><a class="dropdown-item" href="#">Oz Ring (ROR4, WJ4,RT4)</a></li>
+    </ul>
+
+    <br></br>
+    <p>Ring 2</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringTwo" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 2
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringTwo">
+      <li><a class="dropdown-item" href="#">Endless Terror</a></li>
+      <li><a class="dropdown-item" href="#">Guardian Angel Slime Ring</a></li>
+      <li><a class="dropdown-item" href="#">Superior Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Reinforced Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Solid Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Kanna's Treasure</a></li>
+      <li><a class="dropdown-item" href="#">Meister Ring</a></li>
+      <li><a class="dropdown-item" href="#">Oz Ring (ROR4, WJ4,RT4)</a></li>
+    </ul>
+
+    <br></br>
+    <p>Ring 3</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringThree" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 3
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringThree">
+      <li><a class="dropdown-item" href="#">Endless Terror</a></li>
+      <li><a class="dropdown-item" href="#">Guardian Angel Slime Ring</a></li>
+      <li><a class="dropdown-item" href="#">Superior Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Reinforced Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Solid Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Kanna's Treasure</a></li>
+      <li><a class="dropdown-item" href="#">Meister Ring</a></li>
+      <li><a class="dropdown-item" href="#">Oz Ring (ROR4, WJ4,RT4)</a></li>
+    </ul>
+
+    <br></br>
+    <p>Ring 4</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringFour" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 4
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringFour">
+      <li><a class="dropdown-item" href="#">Endless Terror</a></li>
+      <li><a class="dropdown-item" href="#">Guardian Angel Slime Ring</a></li>
+      <li><a class="dropdown-item" href="#">Superior Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Reinforced Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Solid Gollux Ring</a></li>
+      <li><a class="dropdown-item" href="#">Kanna's Treasure</a></li>
+      <li><a class="dropdown-item" href="#">Meister Ring</a></li>
+      <li><a class="dropdown-item" href="#">Oz Ring (ROR4, WJ4,RT4)</a></li>
+    </ul>
+
+    <br></br>
+    <p>Pocket</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="pocketOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Pocket
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="pocketOne">
+      <li><a class="dropdown-item" href="#">Cursed Red Spellbook</a></li>
+      <li><a class="dropdown-item" href="#">Cursed Green Spellbook</a></li>
+      <li><a class="dropdown-item" href="#">Cursed Blue Spellbook</a></li>
+      <li><a class="dropdown-item" href="#">Cursed Yellow Spellbook</a></li>
+      <li><a class="dropdown-item" href="#">Pink Holy Cup</a></li>
+    </ul>
+
+    <br></br>
+    <p>Pendant 1</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="pendantOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Pendant 1
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="pendantOne">
+      <li><a class="dropdown-item" href="#">Superior Gollux Pendant</a></li>
+      <li><a class="dropdown-item" href="#">Sweetwater Pendant (Transposed)</a></li>
+      <li><a class="dropdown-item" href="#">Source of Suffering</a></li>
+      <li><a class="dropdown-item" href="#">Dominator Pendant</a></li>
+    </ul>
+
+    <br></br>
+    <p>Pendant 2</p>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="pendantTwo" data-bs-toggle="dropdown" aria-expanded="false">
+      Pendant 2
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="pendantTwo">
+      <li><a class="dropdown-item" href="#">Superior Gollux Pendant</a></li>
+      <li><a class="dropdown-item" href="#">Sweetwater Pendant (Transposed)</a></li>
+      <li><a class="dropdown-item" href="#">Source of Suffering</a></li>
+      <li><a class="dropdown-item" href="#">Dominator Pendant</a></li>
+    </ul>
+
+  </div>
+</div>
+
+<!--Equip window and relevant Divs-->
+
+        <div class = "col-xl-3">
+            <div id="MainMenu" class="container-fluid p-5 bg-dark text-white opacity-75">
+                <div id="eqpW">
+                  <div id="totem1">
+                  </div>
+                  <div id="totem2">
+                  </div>
+                  <div id="totem3">
+                  </div>
+                  <div id="ring1">
+                  </div>
+                  <div id="ring2">
+                  </div>
+                  <div id="ring3">
+                  </div>
+                  <div id="ring4">
+                  </div>
+                  <div id="pocket">
+                  </div>
+
+                  <div id="pendant1">
+                  </div>
+                  <div id="pendant2">
+                  </div>
+                  <div id="weapon">
+                  </div>
+                  <div id="belt">
+                  </div>
+
+                  <div id="hat">
+                  </div>
+                  <div id="face">
+                  </div>
+                  <div id="eye">
+                  </div>
+                  <div id="top">
+                  </div>
+                  <div id="bottom">
+                  </div>
+                  <div id="shoes">
+                  </div>
+
+                  <div id="earring">
+                  </div>
+                  <div id="shoulder">
+                  </div>
+                  <div id="gloves">
+                  </div>
+                  <div id="android">
+                  </div>
+
+                  <div id="emblem">
+                  </div>
+                  <div id="badge">
+                  </div>
+                  <div id="medal">
+                  </div>
+                  <div id="secondary">
+                  </div>
+                  <div id="cape">
+                  </div>
+                  <div id="heart">
+                  </div>
+                </div>
+            </div>
+        </div>
+                    <!--right side statistics-->
+
+                    <div class="col-sm-3">
+                      <div id="rightMenu" class="container-fluid p-5 bg-dark text-white">
+        
+                      </div>
+                    </div>
+    </div>
+                <!--bottom recommendations-->
+
+                <div id="footer" class="container-fluid p-5 bg-danger text-white">
+            
+                </div>
+  </body>
