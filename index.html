@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class = "row">
+<div class = "col-sm-3">
+
+  <!--Side menu and drop down buttons-->
+
+  <div id ="SideMenu" class="container-fluid p-5 bg-warning text-white opacity-75">
+
+    <h1 class="display-6"><b>Totems</b></h1>
+  
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="totemOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Totem 1
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="totemOne">
+      <li><button class="dropdown-item" type="button" id = "tOne0" onclick="changeT0('tOne0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "tOne1" onclick="changeT1('tOne1')">Dark totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tOne2" onclick="changeT2('tOne2')">Gold Totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tOne3" onclick="changeT3('tOne3')">Silver Totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tOne4" onclick="changeT4('tOne4')">Afterlands Totem</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="totemTwo" data-bs-toggle="dropdown" aria-expanded="false">
+      Totem 2
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="totemTwo">
+      <li><button class="dropdown-item" type="button" id = "tTwo0" onclick="changeT0('tTwo0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "tTwo1" onclick="changeT1('tTwo1')">Dark totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tTwo2" onclick="changeT2('tTwo2')">Gold Totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tTwo3" onclick="changeT3('tTwo3')">Silver Totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tTwo4" onclick="changeT4('tTwo4')">Afterlands Totem</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="totemThree" data-bs-toggle="dropdown" aria-expanded="false">
+      Totem 3
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="totemThree">
+      <li><button class="dropdown-item" type="button" id = "tThree0" onclick="changeT0('tThree0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "tThree1" onclick="changeT1('tThree1')">Dark totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tThree2" onclick="changeT2('tThree2')">Gold Totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tThree3" onclick="changeT3('tThree3')">Silver Totem</button></li>
+      <li><button class="dropdown-item" type="button" id = "tThree4" onclick="changeT4('tThree4')">Afterlands Totem</button></li>
+    </ul>
+
+    <br></br>
+    <h1 class="display-6"><b>Rings</b></h1>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 1
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringOne">
+      <li><button class="dropdown-item" type="button" id = "rOne0" onclick="changeR0('rOne0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne1" onclick="changeR1('rOne1')">Endless Terror</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne2" onclick="changeR2('rOne2')">Guardian Angel Slime Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne3" onclick="changeR3('rOne3')">Superior Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne4" onclick="changeR4('rOne4')">Reinforced Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne5" onclick="changeR5('rOne5')">Solid Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne6" onclick="changeR6('rOne6')">Kanna's Treasure</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne7" onclick="changeR7('rOne7')">Meister Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rOne8" onclick="changeR8('rOne8')">Oz Ring (ROR4, WJ4,RT4)</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringTwo" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 2
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringTwo">
+      <li><button class="dropdown-item" type="button" id = "rTwo0" onclick="changeR0('rTwo0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo1" onclick="changeR1('rTwo1')">Endless Terror</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo2" onclick="changeR2('rTwo2')">Guardian Angel Slime Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo3" onclick="changeR3('rTwo3')">Superior Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo4" onclick="changeR4('rTwo4')">Reinforced Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo5" onclick="changeR5('rTwo5')">Solid Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo6" onclick="changeR6('rTwo6')">Kanna's Treasure</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo7" onclick="changeR7('rTwo7')">Meister Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rTwo8" onclick="changeR8('rTwo8')">Oz Ring (ROR4, WJ4,RT4)</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringThree" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 3
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringThree">
+      <li><button class="dropdown-item" type="button" id = "rThree0" onclick="changeR0('rThree0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree1" onclick="changeR1('rThree1')">Endless Terror</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree2" onclick="changeR2('rThree')">Guardian Angel Slime Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree3" onclick="changeR3('rThree3')">Superior Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree4" onclick="changeR4('rThree4')">Reinforced Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree5" onclick="changeR5('rThree5')">Solid Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree6" onclick="changeR6('rThree6')">Kanna's Treasure</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree7" onclick="changeR7('rThree7')">Meister Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rThree8" onclick="changeR8('rThree8')">Oz Ring (ROR4, WJ4,RT4)</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="ringFour" data-bs-toggle="dropdown" aria-expanded="false">
+      Ring 4
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="ringFour">
+      <li><button class="dropdown-item" type="button" id = "rFour0" onclick="changeR0('rFour0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour1" onclick="changeR1('rFour1')">Endless Terror</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour2" onclick="changeR2('rFour2')">Guardian Angel Slime Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour3" onclick="changeR3('rFour3')">Superior Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour4" onclick="changeR4('rFour4')">Reinforced Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour5" onclick="changeR5('rFour5')">Solid Gollux Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour6" onclick="changeR6('rFour6')">Kanna's Treasure</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour7" onclick="changeR7('rFour7')">Meister Ring</button></li>
+      <li><button class="dropdown-item" type="button" id = "rFour8" onclick="changeR8('rFour8')">Oz Ring (ROR4, WJ4,RT4)</button></li>
+    </ul>
+
+    <br></br>
+    <h1 class="display-6"><b>Accessories</b></h1>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="faceOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Face
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="faceOne">
+      <li><button class="dropdown-item" type="button" id = "aOne0" onclick="changeA0('aOne0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "aOne1" onclick="changeA1('aOne1')">Berserked</button></li>
+      <li><button class="dropdown-item" type="button" id = "aOne2" onclick="changeA2('aOne2')">Sweetwater Tattoo</button></li>
+      <li><button class="dropdown-item" type="button" id = "aOne3" onclick="changeA3('aOne3')">Twilight Mark</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="eyeOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Eye
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="eyeOne">
+      <li><button class="dropdown-item" type="button" id = "aTwo0" onclick="changeA0('aTwo0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "aTwo1" onclick="changeA1('aTwo1')">Magic Eyepatch</button></li>
+      <li><button class="dropdown-item" type="button" id = "aTwo2" onclick="changeA2('aTwo2')">Sweetwater Monocle (Transposed)</button></li>
+      <li><button class="dropdown-item" type="button" id = "aTwo3" onclick="changeA3('aTwo3')">Papulatus Mark</button></li>
+      <li><button class="dropdown-item" type="button" id = "aTwo4" onclick="changeA4('aTwo4')">Black Bean Mark</button></li>
+    </ul>
+    
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="pendantOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Pendant 1
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="pendantOne">
+      <li><button class="dropdown-item" type="button" id = "aThree0" onclick="changeA0('aThree0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "aThree1" onclick="changeA1('aThree1')">Superior Gollux Pendant</button></li>
+      <li><button class="dropdown-item" type="button" id = "aThree2" onclick="changeA2('aThree2')">Sweetwater Pendant (Transposed)</button></li>
+      <li><button class="dropdown-item" type="button" id = "aThree3" onclick="changeA3('aThree3')">Source of Suffering</button></li>
+      <li><button class="dropdown-item" type="button" id = "aThree4" onclick="changeA4('aThree4')">Dominator Pendant</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="pendantTwo" data-bs-toggle="dropdown" aria-expanded="false">
+      Pendant 2
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="pendantTwo">
+      <li><button class="dropdown-item" type="button" id = "aFour0" onclick="changeA0('aFour0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "aFour1" onclick="changeA1('aFour1')">Superior Gollux Pendant</button></li>
+      <li><button class="dropdown-item" type="button" id = "aFour2" onclick="changeA2('aFour2')">Sweetwater Pendant (Transposed)</button></li>
+      <li><button class="dropdown-item" type="button" id = "aFour3" onclick="changeA3('aFour3')">Source of Suffering</button></li>
+      <li><button class="dropdown-item" type="button" id = "aFour4" onclick="changeA4('aFour4')">Dominator Pendant</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="beltOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Belt
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="beltOne">
+      <li><button class="dropdown-item" type="button" id = "aFive0" onclick="changeA0('aFive0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "aFive1" onclick="changeA1('aFive1')">Superior Gollux Belt</button></li>
+      <li><button class="dropdown-item" type="button" id = "aFive2" onclick="changeA2('aFive2')">Dreamy Belt</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="earringOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Earring
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="earringOne">
+      <li><button class="dropdown-item" type="button" id = "aSix0" onclick="changeA0('aSix0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "aSix1" onclick="changeA1('aSix1')">Superior Gollux Earring</button></li>
+      <li><button class="dropdown-item" type="button" id = "aSix2" onclick="changeA2('aSix2')">Commanding Force Earring</button></li>
+    </ul>
+
+    <br></br>
+    <h1 class="display-6"><b>Armour</b></h1>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="hatOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Hat
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="hatOne">
+      <li><button class="dropdown-item" type="button" id = "arOne0" onclick="changeAR0('arOne0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "arOne1" onclick="changeAR1('arOne1')">Ethereal Hat</button></li>
+      <li><button class="dropdown-item" type="button" id = "arOne2" onclick="changeAR2('arOne2')">Arcane Umbra Hat</button></li>
+      <li><button class="dropdown-item" type="button" id = "arOne3" onclick="changeAR3('arOne3')">Absolab Hat</button></li>
+      <li><button class="dropdown-item" type="button" id = "arOne4" onclick="changeAR4('arOne4')">Root Abyss Hat</button></li>
+      <li><button class="dropdown-item" type="button" id = "arOne5" onclick="changeAR5('arOne5')">Lucky Hat</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="topOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Top
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="topOne">
+      <li><button class="dropdown-item" type="button" id = "arTwo0" onclick="changeAR0('arTwo0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "arTwo1" onclick="changeAR1('arTwo1')">Ethereal Top</button></li>
+      <li><button class="dropdown-item" type="button" id = "arTwo2" onclick="changeAR2('arTwo2')">Root Abyss Top</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="bottomOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Bottom
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="bottomOne">
+      <li><button class="dropdown-item" type="button" id = "arThree0" onclick="changeAR0('arThree0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "arThree1" onclick="changeAR1('arThree1')">Ethereal Bottom</button></li>
+      <li><button class="dropdown-item" type="button" id = "arThree2" onclick="changeAR2('arThree2')">Root Abyss Bottom</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="glovesOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Gloves
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="glovesOne">
+      <li><button class="dropdown-item" type="button" id = "arFour0" onclick="changeAR0('arFour0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFour1" onclick="changeAR1('arFour1')">Ethereal Gloves</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFour2" onclick="changeAR2('arFour2')">Arcane Umbra Gloves</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFour3" onclick="changeAR3('arFour3')">Absolab Gloves</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="bootsOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Boots
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="bootsOne">
+      <li><button class="dropdown-item" type="button" id = "arFive0" onclick="changeAR0('arFive0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFive1" onclick="changeAR1('arFive1')">Ethereal Boots</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFive2" onclick="changeAR2('arFive2')">Arcane Umbra Boots</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFive3" onclick="changeAR3('arFive3')">Absolab Boots</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="shoulderOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Shoulder
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="shoulderOne">
+      <li><button class="dropdown-item" type="button" id = "arSix0" onclick="changeAR0('arSix0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "arSix1" onclick="changeAR1('arSix1')">Ethereal Shoulder</button></li>
+      <li><button class="dropdown-item" type="button" id = "arSix2" onclick="changeAR2('arSix2')">Arcane Umbra Shoulder</button></li>
+      <li><button class="dropdown-item" type="button" id = "arSix3" onclick="changeAR3('arSix3')">Absolab Shoulder</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="capeOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Cape
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="capeOne">
+      <li><button class="dropdown-item" type="button" id = "arSeven0" onclick="changeAR0('arSeven0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "arSeven1" onclick="changeAR1('arSeven1')">Ethereal Cape</button></li>
+      <li><button class="dropdown-item" type="button" id = "arSeven2" onclick="changeAR2('arSeven2')">Arcane Umbra Cape</button></li>
+      <li><button class="dropdown-item" type="button" id = "arSeven3" onclick="changeAR3('arSeven3')">Absolab Cape</button></li>
+    </ul>
+
+    <br></br>
+    <h1 class="display-6"><b>WSE</b></h1>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="weaponOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Weapon
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="weaponOne">
+      <li><button class="dropdown-item" type="button" id = "wOne0" onclick="changeW0('wOne0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "wOne1" onclick="changeW1('wOne1')">Genesis Weapon</button></li>
+      <li><button class="dropdown-item" type="button" id = "wOne2" onclick="changeW2('wOne2')">Arcane Umbra Weapon</button></li>
+      <li><button class="dropdown-item" type="button" id = "wOne3" onclick="changeW3('wOne3')">Absolab Weapon</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="secondaryOne" data-bs-toggle="dropdown" aria-expanded="false">
+     Secondary
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="secondaryOne">
+      <li><button class="dropdown-item" type="button" id = "wTwo0" onclick="changeW0('wTwo0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "wTwo1" onclick="changeW1('wTwo1')">Class Secondary</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="emblemOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Emblem
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="emblemOne">
+      <li><button class="dropdown-item" type="button" id = "wThree0" onclick="changeW0('wThree0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "wThree1" onclick="changeW1('wThree1')">Honor Roll Emblem</button></li>
+      <li><button class="dropdown-item" type="button" id = "wThree2" onclick="changeW2('wThree2')">Class Emblem</button></li>
+    </ul>
+
+    <br></br>
+    <h1 class="display-6"><b>Misc</b></h1>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="pocketOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Pocket
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="pocketOne">
+      <li><button class="dropdown-item" type="button" id = "mOne0" onclick="changeM0('mOne0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "mOne1" onclick="changeM1('mOne1')">Cursed Red Spellbook</button></li>
+      <li><button class="dropdown-item" type="button" id = "mOne2" onclick="changeM2('mOne2')">Cursed Green Spellbook</button></li>
+      <li><button class="dropdown-item" type="button" id = "mOne3" onclick="changeM3('mOne3')">Cursed Blue Spellbook</button></li>
+      <li><button class="dropdown-item" type="button" id = "mOne4" onclick="changeM4('mOne4')">Cursed Yellow Spellbook</button></li>
+      <li><button class="dropdown-item" type="button" id = "mOne4" onclick="changeM5('mOne5')">Pink Holy Cup</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="badgeOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Badge
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="badgeOne">
+      <li><button class="dropdown-item" type="button" id = "mTwo0" onclick="changeM0('mTwo0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "mTwo1" onclick="changeM1('mTwo1')">Sengoku Hakase Badge</button></li>
+      <li><button class="dropdown-item" type="button" id = "mTwo2" onclick="changeM2('mTwo2')">Ghost Ship Exorcist</button></li>
+      <li><button class="dropdown-item" type="button" id = "mTwo3" onclick="changeM3('mTwo3')">Genesis Badge</button></li>
+      <li><button class="dropdown-item" type="button" id = "mTwo4" onclick="changeM4('mTwo4')">Monster Park Badge</button></li>
+      <li><button class="dropdown-item" type="button" id = "mTwo5" onclick="changeM5('mTwo5')">Crystal Ventus Badge</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="medalOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Medal
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="medalOne">
+      <li><button class="dropdown-item" type="button" id = "mThree0" onclick="changeM0('mThree0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "mThree1" onclick="changeM1('mThree1')">Seven Day Monster Parker</button></li>
+      <li><button class="dropdown-item" type="button" id = "mThree2" onclick="changeM2('mThree2')">Reboot Master Class</button></li>
+      <li><button class="dropdown-item" type="button" id = "mThree3" onclick="changeM3('mThree3')">Antellion Guardian</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="androidOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Android
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="androidOne">
+      <li><button class="dropdown-item" type="button" id = "mFour0" onclick="changeM0('mFour0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "mFour1" onclick="changeM1('mFour1')">Wondroid</button></li>
+      <li><button class="dropdown-item" type="button" id = "mFour2" onclick="changeM2('mFour2')">Regular Android</button></li>
+    </ul>
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="heartOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Heart
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="heartOne">
+      <li><button class="dropdown-item" type="button" id = "mFive0" onclick="changeM0('mFive0')">[remove selection]</button></li>
+      <li><button class="dropdown-item" type="button" id = "mFive1" onclick="changeM1('mFive1')">Wondroid Heart</button></li>
+      <li><button class="dropdown-item" type="button" id = "mFive2" onclick="changeM2('mFive2')">Fairy Heart</button></li>
+      <li><button class="dropdown-item" type="button" id = "mFive3" onclick="changeM3('mFive3')">Regular Heart (Below lvl100)</button></li>
+    </ul>
+
+  </div>
+</div>
+
+<!--Equip window and relevant Divs-->
+
+        <div class = "col-xl-3">
+            <div id="MainMenu" class="container-fluid p-5 bg-dark text-white opacity-75">
+                <div id="eqpW">
+                  <div id="totem1">
+                  </div>
+                  <div id="totem2">
+                  </div>
+                  <div id="totem3">
+                  </div>
+                  <div id="ring1">
+                  </div>
+                  <div id="ring2">
+                  </div>
+                  <div id="ring3">
+                  </div>
+                  <div id="ring4">
+                  </div>
+                  <div id="pocket">
+                  </div>
+
+                  <div id="pendant1">
+                  </div>
+                  <div id="pendant2">
+                  </div>
+                  <div id="weapon">
+                  </div>
+                  <div id="belt">
+                  </div>
+
+                  <div id="hat">
+                  </div>
+                  <div id="face">
+                  </div>
+                  <div id="eye">
+                  </div>
+                  <div id="top">
+                  </div>
+                  <div id="bottom">
+                  </div>
+                  <div id="shoes">
+                  </div>
+
+                  <div id="earring">
+                  </div>
+                  <div id="shoulder">
+                  </div>
+                  <div id="gloves">
+                  </div>
+                  <div id="android">
+                  </div>
+
+                  <div id="emblem">
+                  </div>
+                  <div id="badge">
+                  </div>
+                  <div id="medal">
+                  </div>
+                  <div id="secondary">
+                  </div>
+                  <div id="cape">
+                  </div>
+                  <div id="heart">
+                  </div>
+                </div>
+            </div>
+        </div>
+                    <!--right side statistics-->
+
+                    <div class="col-sm-3">
+                      <div id="rightMenu" class="container-fluid p-5 bg-dark text-white">
+        
+                      </div>
+                    </div>
+    </div>
+                <!--bottom recommendations-->
+
+                <div id="footer" class="container-fluid p-5 bg-danger text-white">
+            
+                </div>
+  </body>

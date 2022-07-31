@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+/* body */
+body {
+    background-image:url("images/cernium.png");
+    background-repeat:no-repeat;
+    background-size:3500px;
+    background-position:center;
+}
+/* menus */
+#eqpW{
+	background-image:url("images/eqpwindow.png");
+	background-repeat:no-repeat;
+	background-size:500px;
+	position:absolute;
+	height:900px;
+	width:1500px;
+	margin-top:0px;
+}
+
+#SideMenu{
+    height:900px;
+    width:500px;
+}
+#MainMenu{
+    height:900px;
+    width:800px;
+    margin-left:30px;
+}
+#rightMenu{
+    height:900px;
+    width:550px;
+    margin-left:360px;
+}
+#footer{
+    height:600px;
+    width:1854px;
+    float:left;
+}
+
+/* dropdown divs */
+
+#totemTwo{
+    margin-left:30px;
+}
+
+#totemThree{
+    margin-left:30px;
+}
+
+#ringTwo{
+    margin-left:10px;
+}
+#ringThree{
+    margin-left:10px;
+}
+#ringFour{
+    margin-left:10px;
+}
+
+
+/* equip divs */
+
+#totem1{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:42px;
+    margin-left:20px;
+    opacity:50%;
+}
+#totem2{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:7px;
+    margin-left:20px;
+    opacity:50%;
+}
+#totem3{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:4px;
+    margin-left:20px;
+    opacity:50%;
+}
+#ring1{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:-159px;
+    margin-left:124px;
+    opacity:50%;
+}
+#ring2{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:124px;
+    opacity:50%;
+}
+#ring3{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:124px;
+    opacity:50%;
+}
+#ring4{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:124px;
+    opacity:50%;
+}
+#pocket{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:124px;
+    opacity:50%;
+}
+#pendant1{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:-277px;
+    margin-left:195px;
+    opacity:50%;
+}
+#pendant2{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:195px;
+    opacity:50%;
+}
+#weapon{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:195px;
+    opacity:50%;
+}
+#belt{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:195px;
+    opacity:50%;
+}
+#hat{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:-350px;
+    margin-left:266px;
+    opacity:50%;
+}
+#face{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:266px;
+    opacity:50%;
+}
+#eye{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:266px;
+    opacity:50%;
+}
+#top{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:266px;
+    opacity:50%;
+}
+#bottom{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:266px;
+    opacity:50%;
+}
+#shoes{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:266px;
+    opacity:50%;
+}
+#earring{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:-277px;
+    margin-left:337px;
+    opacity:50%;
+}
+#shoulder{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:337px;
+    opacity:50%;
+}
+#gloves{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:337px;
+    opacity:50%;
+}
+#android{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:337px;
+    opacity:50%;
+}
+#emblem{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:-421px;
+    margin-left:408px;
+    opacity:50%;
+}
+#badge{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:408px;
+    opacity:50%;
+}
+#medal{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:408px;
+    opacity:50%;
+}
+#secondary{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:408px;
+    opacity:50%;
+}
+#cape{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:408px;
+    opacity:50%;
+}
+#heart{
+    background-color:red;
+    height:65px;
+    width:65px;
+    margin-top:6px;
+    margin-left:408px;
+    opacity:50%;
+}
