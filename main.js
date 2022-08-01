@@ -361,7 +361,7 @@ function changeM1(WhichMisc){
   } else if(WhichMisc == "mFour1"){
   document.getElementById('androidOne').innerHTML = "Wondroid";
   } else if(WhichMisc == "mFive1"){
-    document.getElementById('heartOne').innerHTML = "Wondroid Heart";
+    document.getElementById('heartOne').innerHTML = "Glimmering Wondroid Heart";
   }
 }
 
@@ -406,5 +406,44 @@ function changeM5(WhichMisc){
     document.getElementById('badgeOne').innerHTML = "Crystal Ventus Badge";
     }
 }
+
+//class dropdown
+
+function changeC0(WhichClass){
+  if(WhichClass == "cOne0"){
+    document.getElementById('classOne').innerHTML = "Class ";
+    }
+}
+
+function changeC1(WhichClass){
+  if(WhichClass == "cOne1"){
+    document.getElementById('classOne').innerHTML = "Warrior";
+    }
+}
+
+function changeC2(WhichClass){
+  if(WhichClass == "cOne2"){
+    document.getElementById('classOne').innerHTML = "Magician";
+    }
+}
+
+function changeC3(WhichClass){
+  if(WhichClass == "cOne3"){
+    document.getElementById('classOne').innerHTML = "Archer";
+    }
+}
+
+function changeC4(WhichClass){
+  if(WhichClass == "cOne4"){
+    document.getElementById('classOne').innerHTML = "Thief";
+    }
+}
+
+function changeC5(WhichClass){
+  if(WhichClass == "cOne5"){
+    document.getElementById('classOne').innerHTML = "Pirate";
+    }
+}
+
 
 //document.body.style.backgroundImage = "url('img_tree.png')";

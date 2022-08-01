@@ -26,7 +26,7 @@
 
   <!--Side menu and drop down buttons-->
 
-  <div id ="SideMenu" class="container-fluid p-5 bg-warning text-white opacity-75">
+  <div id ="SideMenu" class="container-fluid p-5 bg-warning text-white">
 
     <h1 class="display-6"><b>Totems</b></h1>
   
@@ -343,7 +343,7 @@
     </button>
     <ul class="dropdown-menu" aria-labelledby="heartOne">
       <li><button class="dropdown-item" type="button" id = "mFive0" onclick="changeM0('mFive0')">[remove selection]</button></li>
-      <li><button class="dropdown-item" type="button" id = "mFive1" onclick="changeM1('mFive1')">Wondroid Heart</button></li>
+      <li><button class="dropdown-item" type="button" id = "mFive1" onclick="changeM1('mFive1')">Glimmering Wondroid Heart</button></li>
       <li><button class="dropdown-item" type="button" id = "mFive2" onclick="changeM2('mFive2')">Fairy Heart</button></li>
       <li><button class="dropdown-item" type="button" id = "mFive3" onclick="changeM3('mFive3')">Regular Heart (Below lvl100)</button></li>
     </ul>
@@ -416,9 +416,23 @@
                   </div>
                   <div id="heart">
                   </div>
+
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="classOne" data-bs-toggle="dropdown" aria-expanded="false">
+                    Class
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="classOne">
+                    <li><button class="dropdown-item" type="button" id = "cOne0" onclick="changeC0('cOne0')">[remove selection]</button></li>
+                    <li><button class="dropdown-item" type="button" id = "cOne1" onclick="changeC1('cOne1')">Warrior</button></li>
+                    <li><button class="dropdown-item" type="button" id = "cOne2" onclick="changeC2('cOne2')">Magician</button></li>
+                    <li><button class="dropdown-item" type="button" id = "cOne3" onclick="changeC3('cOne3')">Archer</button></li>
+                    <li><button class="dropdown-item" type="button" id = "cOne4" onclick="changeC4('cOne4')">Thief</button></li>
+                    <li><button class="dropdown-item" type="button" id = "cOne5" onclick="changeC5('cOne5')">Pirate</button></li>
+                  </ul>
+
                 </div>
             </div>
         </div>
+        
                     <!--right side statistics-->
 
                     <div class="col-sm-3">

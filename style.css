@@ -34,12 +34,16 @@ body {
 }
 #footer{
     height:600px;
-    width:1854px;
+    width:1874px;
     float:left;
 }
 
 /* dropdown divs */
 
+#classOne{
+    margin-top:200px;
+}
+/*totem*/
 #totemTwo{
     margin-left:30px;
 }
@@ -47,7 +51,7 @@ body {
 #totemThree{
     margin-left:30px;
 }
-
+/*ring*/
 #ringTwo{
     margin-left:10px;
 }
@@ -57,7 +61,67 @@ body {
 #ringFour{
     margin-left:10px;
 }
-
+/*acc*/
+#eyeOne{
+    margin-left:10px;
+}
+#pendantOne{
+    margin-left:10px;
+}
+#pendantTwo{
+    margin-top:10px;
+}
+#beltOne{
+    margin-top:10px;
+    margin-left:10px;
+}
+#earringOne{
+    margin-top:10px;
+    margin-left:10px;
+}
+/*armour*/
+#topOne{
+    margin-left:10px;
+}
+#bottomOne{
+    margin-left:10px;
+}
+#glovesOne{
+    margin-left:10px;
+}
+#bootsOne{
+    margin-top:10px;
+}
+#shoulderOne{
+    margin-top:10px;
+    margin-left:10px;
+}
+#capeOne{
+    margin-top:10px;
+    margin-left:10px;
+}
+/*wse*/
+#secondaryOne{
+    margin-left:10px;
+}
+#emblemOne{
+    margin-left:10px;
+}
+/*misc*/
+#badgeOne{
+    margin-left:10px;
+}
+#medalOne{
+    margin-left:10px;
+}
+#androidOne{
+    margin-top:10px;
+    margin-left:10px;
+}
+#heartOne{
+    margin-top:10px;
+    margin-left:10px;
+}
 
 /* equip divs */
 
