@@ -222,12 +222,13 @@ body {
     opacity:50%;
 }
 #hat{
-    background-color:red;
     height:65px;
     width:65px;
     margin-top:-350px;
     margin-left:266px;
-    opacity:50%;
+    background-repeat:no-repeat;
+    background-size:65px;
+    background-position-y:8px;
 }
 #face{
     background-color:red;

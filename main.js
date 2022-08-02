@@ -239,19 +239,12 @@ function changeAR0(WhichArmour){
 
 function changeAR1(WhichArmour){
   if(WhichArmour == "arOne1"){
-    document.getElementById('hatOne').innerHTML = "Ethereal Hat";
+    document.getElementById('hatOne').innerHTML = "Eternal Hat";
+    document.getElementById('hat').style.backgroundImage = "url(images/eternalMageHat.webp)";
     } else if(WhichArmour == "arTwo1"){
-    document.getElementById('topOne').innerHTML = "Ethereal Top";
+    document.getElementById('topOne').innerHTML = "Eternal Top";
     } else if(WhichArmour == "arThree1"){
-  document.getElementById('bottomOne').innerHTML = "Ethereal Bottom";
-  } else if(WhichArmour == "arFour1"){
-  document.getElementById('glovesOne').innerHTML = "Ethereal Gloves";
-  } else if(WhichArmour == "arFive1"){
-    document.getElementById('bootsOne').innerHTML = "Ethereal Boots";
-  } else if(WhichArmour == "arSix1"){
-    document.getElementById('shoulderOne').innerHTML = "Ethereal Shoulder";
-  } else if (WhichArmour == "arSeven1"){
-    document.getElementById('capeOne').innerHTML = "Ethereal Cape";
+  document.getElementById('bottomOne').innerHTML = "Eternal Bottom";
   }
 }
 
@@ -446,4 +439,4 @@ function changeC5(WhichClass){
 }
 
 
-//document.body.style.backgroundImage = "url('img_tree.png')";
+//document.getElementById('pocket').style.backgroundImage = "url(images/eqpwindow.png)";
