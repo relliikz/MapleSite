@@ -28,6 +28,15 @@
 
   <div id ="SideMenu" class="container-fluid p-5 bg-warning text-white">
 
+    <div class="d-grid gap-2">
+      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Totems</button>
+      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Rings</button>
+      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Accessories</button>
+      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Armour</button>
+      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">WSE</button>
+      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Misc</button>
+    </div>
+    <div class="collapse multi-collapse" id="collapse1">
     <h1 class="display-6"><b>Totems</b></h1>
   
     <button class="btn btn-secondary dropdown-toggle" type="button" id="totemOne" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,7 +71,9 @@
       <li><button class="dropdown-item" type="button" id = "tThree3" onclick="changeT3('tThree3')">Silver Totem</button></li>
       <li><button class="dropdown-item" type="button" id = "tThree4" onclick="changeT4('tThree4')">Afterlands Totem</button></li>
     </ul>
+</div>
 
+<div class="collapse multi-collapse" id="collapse2">
     <br></br>
     <h1 class="display-6"><b>Rings</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="ringOne" data-bs-toggle="dropdown" aria-expanded="false">
@@ -124,7 +135,9 @@
       <li><button class="dropdown-item" type="button" id = "rFour7" onclick="changeR7('rFour7')">Meister Ring</button></li>
       <li><button class="dropdown-item" type="button" id = "rFour8" onclick="changeR8('rFour8')">Oz Ring (ROR4, WJ4,RT4)</button></li>
     </ul>
+</div>
 
+<div class="collapse multi-collapse" id="collapse3">
     <br></br>
     <h1 class="display-6"><b>Accessories</b></h1>
 
@@ -188,7 +201,9 @@
       <li><button class="dropdown-item" type="button" id = "aSix1" onclick="changeA1('aSix1')">Superior Gollux Earring</button></li>
       <li><button class="dropdown-item" type="button" id = "aSix2" onclick="changeA2('aSix2')">Commanding Force Earring</button></li>
     </ul>
+  </div>
 
+  <div class="collapse multi-collapse" id="collapse4">
     <br></br>
     <h1 class="display-6"><b>Armour</b></h1>
 
@@ -257,7 +272,9 @@
       <li><button class="dropdown-item" type="button" id = "arSeven2" onclick="changeAR2('arSeven2')">Arcane Umbra Cape</button></li>
       <li><button class="dropdown-item" type="button" id = "arSeven3" onclick="changeAR3('arSeven3')">Absolab Cape</button></li>
     </ul>
+</div>
 
+<div class="collapse multi-collapse" id="collapse5">
     <br></br>
     <h1 class="display-6"><b>WSE</b></h1>
 
@@ -287,7 +304,9 @@
       <li><button class="dropdown-item" type="button" id = "wThree1" onclick="changeW1('wThree1')">Honor Roll Emblem</button></li>
       <li><button class="dropdown-item" type="button" id = "wThree2" onclick="changeW2('wThree2')">Class Emblem</button></li>
     </ul>
+</div>
 
+<div class="collapse multi-collapse" id="collapse6">
     <br></br>
     <h1 class="display-6"><b>Misc</b></h1>
 
@@ -343,6 +362,7 @@
       <li><button class="dropdown-item" type="button" id = "mFive2" onclick="changeM2('mFive2')">Fairy Heart</button></li>
       <li><button class="dropdown-item" type="button" id = "mFive3" onclick="changeM3('mFive3')">Regular Heart (Below lvl100)</button></li>
     </ul>
+  </div>
 
   </div>
 </div>

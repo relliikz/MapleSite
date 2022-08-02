@@ -37,8 +37,12 @@ body {
     width:1874px;
     float:left;
 }
-
-/* dropdown divs */
+/* ======================
+    dropdown button divs
+   ====================== */
+#collapse1{
+    width:500px;
+}
 
 #classOne{
     margin-top:200px;
