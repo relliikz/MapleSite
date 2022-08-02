@@ -7,3 +7,4 @@ another already open it closes
 -make it so selecting your class under the equip window
 stipulates what class of gear/wse you will be offered
 -add fields to insert data in collapsables
+-the best in slot setup needs to be already set up?
