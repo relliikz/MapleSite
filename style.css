@@ -40,10 +40,15 @@ body {
 /* ======================
     dropdown button divs
    ====================== */
-
 #classOne{
     margin-top:200px;
 }
+/*headers*/
+#totemHeader{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
 /*totem*/
 #totemTwo{
     margin-left:30px;

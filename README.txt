@@ -6,5 +6,10 @@ current to do list:
 another already open it closes
 -make it so selecting your class under the equip window
 stipulates what class of gear/wse you will be offered
--add fields to insert data in collapsables
+-make it so that clicking on a dropdown opens input fields relevant
+to the item (i.e clicking on badge gives pot and star field, but not flame)
+[figure out new solution to this?]
 -the best in slot setup needs to be already set up?
+-dynamic scaling
+-saves cookies
+-clear button for equip
