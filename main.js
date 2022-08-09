@@ -229,7 +229,7 @@ function changeAR0(WhichArmour){
   } else if(WhichArmour == "arFour0"){
   document.getElementById('glovesOne').innerHTML = "Gloves ";
   } else if(WhichArmour == "arFive0"){
-    document.getElementById('bootsOne').innerHTML = "Boots ";
+    document.getElementById('shoesOne').innerHTML = "Shoes ";
   } else if(WhichArmour == "arSix0"){
     document.getElementById('shoulderOne').innerHTML = "Shoulder ";
   } else if (WhichArmour == "arSeven0"){
@@ -258,7 +258,7 @@ function changeAR2(WhichArmour){
   } else if(WhichArmour == "arFour2"){
   document.getElementById('glovesOne').innerHTML = "Arcane Umbra Gloves";
   } else if(WhichArmour == "arFive2"){
-    document.getElementById('bootsOne').innerHTML = "Arcane Umbra Boots";
+    document.getElementById('shoesOne').innerHTML = "Arcane Umbra Shoes";
   } else if(WhichArmour == "arSix2"){
     document.getElementById('shoulderOne').innerHTML = "Arcane Umbra Shoulder";
   } else if (WhichArmour == "arSeven2"){
@@ -272,7 +272,7 @@ function changeAR3(WhichArmour){
     } else if(WhichArmour == "arFour3"){
   document.getElementById('glovesOne').innerHTML = "Absolab Gloves";
   } else if(WhichArmour == "arFive3"){
-    document.getElementById('bootsOne').innerHTML = "Absolab Boots";
+    document.getElementById('shoesOne').innerHTML = "Absolab Shoes";
   } else if(WhichArmour == "arSix3"){
     document.getElementById('shoulderOne').innerHTML = "Absolab Shoulder";
   } else if (WhichArmour == "arSeven3"){
@@ -437,6 +437,74 @@ function changeC5(WhichClass){
     document.getElementById('classOne').innerHTML = "Pirate";
     }
 }
+//save button
 
+function saveEquips() {
+  const date = new Date();
+  date.setTime(date.getTime() + (7 * 86400000));
+  //document.cookie = `cookieData=${count},${totalCount},${clicks},${autoClickers},${autoClickerMult},${factorys},${factoryMult}; expires=${date.toUTCString()}; path=/; Secure`;
+}
+//setInterval(saveEquips, 60000)
+
+//clear button
+
+function clearEquips(){
+  document.getElementById('totem1').style.backgroundImage = "";
+  document.getElementById('totemOne').innerHTML = "Totem 1 ";
+  document.getElementById('totem2').style.backgroundImage = "";
+  document.getElementById('totemTwo').innerHTML = "Totem 2 ";
+  document.getElementById('totem3').style.backgroundImage = "";
+  document.getElementById('totemThree').innerHTML = "Totem 3 ";
+  document.getElementById('ring1').style.backgroundImage = "";
+  document.getElementById('ringOne').innerHTML = "Ring 1 ";
+  document.getElementById('ring2').style.backgroundImage = "";
+  document.getElementById('ringTwo').innerHTML = "Ring 2 ";
+  document.getElementById('ring3').style.backgroundImage = "";
+  document.getElementById('ringThree').innerHTML = "Ring 3 ";
+  document.getElementById('ring4').style.backgroundImage = "";
+  document.getElementById('ringFour').innerHTML = "Ring 4 ";
+  document.getElementById('pocket').style.backgroundImage = "";
+  document.getElementById('pocketOne').innerHTML = "Pocket ";
+  document.getElementById('pendant1').style.backgroundImage = "";
+  document.getElementById('pendantOne').innerHTML = "Pendant 1 ";
+  document.getElementById('pendant2').style.backgroundImage = "";
+  document.getElementById('pendantTwo').innerHTML = "Pendant 2 ";
+  document.getElementById('weapon').style.backgroundImage = "";
+  document.getElementById('weaponOne').innerHTML = "Weapon ";
+  document.getElementById('belt').style.backgroundImage = "";
+  document.getElementById('beltOne').innerHTML = "Belt ";
+  document.getElementById('hat').style.backgroundImage = "";
+  document.getElementById('hatOne').innerHTML = "Hat ";
+  document.getElementById('face').style.backgroundImage = "";
+  document.getElementById('faceOne').innerHTML = "Face ";
+  document.getElementById('eye').style.backgroundImage = "";
+  document.getElementById('eyeOne').innerHTML = "Eye ";
+  document.getElementById('top').style.backgroundImage = "";
+  document.getElementById('topOne').innerHTML = "Top ";
+  document.getElementById('bottom').style.backgroundImage = "";
+  document.getElementById('bottomOne').innerHTML = "Bottom ";
+  document.getElementById('shoes').style.backgroundImage = "";
+  document.getElementById('shoesOne').innerHTML = "Shoes ";
+  document.getElementById('earring').style.backgroundImage = "";
+  document.getElementById('earringOne').innerHTML = "Earring ";
+  document.getElementById('shoulder').style.backgroundImage = "";
+  document.getElementById('shoulderOne').innerHTML = "Shoulder ";
+  document.getElementById('gloves').style.backgroundImage = "";
+  document.getElementById('glovesOne').innerHTML = "Gloves ";
+  document.getElementById('android').style.backgroundImage = "";
+  document.getElementById('androidOne').innerHTML = "Android ";
+  document.getElementById('emblem').style.backgroundImage = "";
+  document.getElementById('emblemOne').innerHTML = "Emblem ";
+  document.getElementById('badge').style.backgroundImage = "";
+  document.getElementById('badgeOne').innerHTML = "Badge ";
+  document.getElementById('medal').style.backgroundImage = "";
+  document.getElementById('medalOne').innerHTML = "Medal ";
+  document.getElementById('secondary').style.backgroundImage = "";
+  document.getElementById('secondaryOne').innerHTML = "Secondary ";
+  document.getElementById('cape').style.backgroundImage = "";
+  document.getElementById('capeOne').innerHTML = "Cape ";
+  document.getElementById('heart').style.backgroundImage = "";
+  document.getElementById('heartOne').innerHTML = "Heart ";
+}
 
 //document.getElementById('pocket').style.backgroundImage = "url(images/eqpwindow.png)";

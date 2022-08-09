@@ -31,8 +31,10 @@
     <div class="d-grid gap-2">
       <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Totems</button>
     <div class="collapse multi-collapse" id="collapse1">
-    <h1 id="totemHeader" class="display-6"><b>Totems</b></h1>
-  
+      <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTotemOne" aria-expanded="false" aria-controls="collapseTotemOne">Totem 1</button>
+      <div class="collapse multi-collapse" id="collapseTotemOne">
+        <h1 class="display-6"><b>Totem 1</b></h1>  
     <button class="btn btn-secondary dropdown-toggle" type="button" id="totemOne" data-bs-toggle="dropdown" aria-expanded="false">
       Totem 1
     </button>
@@ -43,7 +45,11 @@
       <li><button class="dropdown-item" type="button" id = "tOne3" onclick="changeT3('tOne3')">Silver Totem</button></li>
       <li><button class="dropdown-item" type="button" id = "tOne4" onclick="changeT4('tOne4')">Afterlands Totem</button></li>
     </ul>
+</div>
 
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTotemTwo" aria-expanded="false" aria-controls="collapseTotemTwo">Totem 2</button>
+<div class="collapse multi-collapse" id="collapseTotemTwo">
+  <h1 class="display-6"><b>Totem 2</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="totemTwo" data-bs-toggle="dropdown" aria-expanded="false">
       Totem 2
     </button>
@@ -54,7 +60,11 @@
       <li><button class="dropdown-item" type="button" id = "tTwo3" onclick="changeT3('tTwo3')">Silver Totem</button></li>
       <li><button class="dropdown-item" type="button" id = "tTwo4" onclick="changeT4('tTwo4')">Afterlands Totem</button></li>
     </ul>
+</div>
 
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTotem3" aria-expanded="false" aria-controls="collapseTotem3">Totem 3</button>
+<div class="collapse multi-collapse" id="collapseTotem3">
+  <h1 class="display-6"><b>Totem 3</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="totemThree" data-bs-toggle="dropdown" aria-expanded="false">
       Totem 3
     </button>
@@ -66,7 +76,10 @@
       <li><button class="dropdown-item" type="button" id = "tThree4" onclick="changeT4('tThree4')">Afterlands Totem</button></li>
     </ul>
     </div>
+    </div>
+</div>
 
+  <!--Rings section-->  
 
 <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Rings</button>
 <div class="collapse multi-collapse" id="collapse2">
@@ -131,6 +144,8 @@
       <li><button class="dropdown-item" type="button" id = "rFour8" onclick="changeR8('rFour8')">Oz Ring (ROR4, WJ4,RT4)</button></li>
     </ul>
 </div>
+
+<!--Accessories section-->
 
 <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Accessories</button>
 <div class="collapse multi-collapse" id="collapse3">
@@ -225,11 +240,14 @@
       </form>
 
   </div>
+<!--Armour section-->
 
   <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Armour</button>
   <div class="collapse multi-collapse" id="collapse4">
-    <h1 class="display-6"><b>Armour</b></h1>
-
+    <div class="d-grid gap-2">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHat" aria-expanded="false" aria-controls="collapseHat">Hat</button>
+    <div class="collapse multi-collapse" id="collapseHat">
+      <h1 class="display-6"><b>Hat</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="hatOne" data-bs-toggle="dropdown" aria-expanded="false">
       Hat
     </button>
@@ -242,6 +260,43 @@
       <li><button class="dropdown-item" type="button" id = "arOne5" onclick="changeAR5('arOne5')">Lucky Hat</button></li>
     </ul>
 
+    <form id ="inputForm1">
+      <div class="mb-3">
+        <label for="potInput" class="form-label">Potential stat total</label>
+        <input type="number" class="form-control" id="potInput" aria-describedby="potHelp">
+        <div id="potHelp" class="form-text"></div>
+        <button type="submit" class="btn btn-danger">></button>
+  
+        <div class="mb-3" id="starForm1">
+          <label for="starInput" class="form-label">Starforce total</label>
+          <input type="number" class="form-control" id="starInput" aria-describedby="starHelp">
+          <div id="starHelp" class="form-text"></div>
+          <button type="submit" class="btn btn-danger">></button></div>
+  
+          <h3 id="flameTotalHeader">Flame total</h3>
+          <div class="mb-3" id="flameForm1">
+            <label for="flameInput1" class="form-label">Main stat</label>
+            <input type="number" class="form-control" id="flameInput1">
+            </div>
+            <div class="mb-3" id="flameForm2">
+            <label for="flameInput2" class="form-label">Secondary stat</label>
+            <input type="number" class="form-control" id="flameInput2">
+            </div>
+            <div class="mb-3" id="flameForm3">
+            <label for="flameInput3" class="form-label">(m)Att</label>
+            <input type="number" class="form-control" id="flameInput3">
+            </div>
+            <div class="mb-3" id="flameForm4">
+            <label for="flameInput4" class="form-label">All stat (%)</label>
+            <input type="number" class="form-control" id="flameInput4">
+            </div>
+            <button type="submit" class="btn btn-danger">></button></div>
+      </form>
+    </div>
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTop" aria-expanded="false" aria-controls="collapseTop">Top</button>
+    <div class="collapse multi-collapse" id="collapseTop">
+      <h1 class="display-6"><b>Top</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="topOne" data-bs-toggle="dropdown" aria-expanded="false">
       Top
     </button>
@@ -250,7 +305,10 @@
       <li><button class="dropdown-item" type="button" id = "arTwo1" onclick="changeAR1('arTwo1')">Eternal Top</button></li>
       <li><button class="dropdown-item" type="button" id = "arTwo2" onclick="changeAR2('arTwo2')">Root Abyss Top</button></li>
     </ul>
-
+</div>
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBottom" aria-expanded="false" aria-controls="collapseBottom">Bottom</button>
+<div class="collapse multi-collapse" id="collapseBottom">
+  <h1 class="display-6"><b>Bottom</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="bottomOne" data-bs-toggle="dropdown" aria-expanded="false">
       Bottom
     </button>
@@ -259,7 +317,11 @@
       <li><button class="dropdown-item" type="button" id = "arThree1" onclick="changeAR1('arThree1')">Eternal Bottom</button></li>
       <li><button class="dropdown-item" type="button" id = "arThree2" onclick="changeAR2('arThree2')">Root Abyss Bottom</button></li>
     </ul>
+    </div>
 
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGloves" aria-expanded="false" aria-controls="collapseGloves">Gloves</button>
+    <div class="collapse multi-collapse" id="collapseGloves">
+      <h1 class="display-6"><b>Gloves</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="glovesOne" data-bs-toggle="dropdown" aria-expanded="false">
       Gloves
     </button>
@@ -268,16 +330,24 @@
       <li><button class="dropdown-item" type="button" id = "arFour2" onclick="changeAR2('arFour2')">Arcane Umbra Gloves</button></li>
       <li><button class="dropdown-item" type="button" id = "arFour3" onclick="changeAR3('arFour3')">Absolab Gloves</button></li>
     </ul>
+</div>
 
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="bootsOne" data-bs-toggle="dropdown" aria-expanded="false">
-      Boots
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShoes" aria-expanded="false" aria-controls="collapseShoes">Shoes</button>
+<div class="collapse multi-collapse" id="collapseShoes">
+  <h1 class="display-6"><b>Shoes</b></h1>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="shoesOne" data-bs-toggle="dropdown" aria-expanded="false">
+      Shoes
     </button>
-    <ul class="dropdown-menu" aria-labelledby="bootsOne">
+    <ul class="dropdown-menu" aria-labelledby="shoesOne">
       <li><button class="dropdown-item" type="button" id = "arFive0" onclick="changeAR0('arFive0')">[remove selection]</button></li>
-      <li><button class="dropdown-item" type="button" id = "arFive2" onclick="changeAR2('arFive2')">Arcane Umbra Boots</button></li>
-      <li><button class="dropdown-item" type="button" id = "arFive3" onclick="changeAR3('arFive3')">Absolab Boots</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFive2" onclick="changeAR2('arFive2')">Arcane Umbra Shoes</button></li>
+      <li><button class="dropdown-item" type="button" id = "arFive3" onclick="changeAR3('arFive3')">Absolab Shoes</button></li>
     </ul>
+</div>
 
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShoulder" aria-expanded="false" aria-controls="collapseShoulder">Shoulder</button>
+<div class="collapse multi-collapse" id="collapseShoulder">
+  <h1 class="display-6"><b>Shoulder</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="shoulderOne" data-bs-toggle="dropdown" aria-expanded="false">
       Shoulder
     </button>
@@ -286,7 +356,11 @@
       <li><button class="dropdown-item" type="button" id = "arSix2" onclick="changeAR2('arSix2')">Arcane Umbra Shoulder</button></li>
       <li><button class="dropdown-item" type="button" id = "arSix3" onclick="changeAR3('arSix3')">Absolab Shoulder</button></li>
     </ul>
+</div>
 
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCape" aria-expanded="false" aria-controls="collapseCape">Cape</button>
+<div class="collapse multi-collapse" id="collapseCape">
+  <h1 class="display-6"><b>Cape</b></h1>
     <button class="btn btn-secondary dropdown-toggle" type="button" id="capeOne" data-bs-toggle="dropdown" aria-expanded="false">
       Cape
     </button>
@@ -295,36 +369,11 @@
       <li><button class="dropdown-item" type="button" id = "arSeven2" onclick="changeAR2('arSeven2')">Arcane Umbra Cape</button></li>
       <li><button class="dropdown-item" type="button" id = "arSeven3" onclick="changeAR3('arSeven3')">Absolab Cape</button></li>
     </ul>
-
-    <form>
-      <div class="mb-3">
-        <label for="potInput" class="form-label">Potential stat total</label>
-        <input type="number" class="form-control" id="potInput" aria-describedby="potHelp">
-        <div id="potHelp" class="form-text">Input the total stat % on your item (allstat % included)</div>
-        <button type="submit" class="btn btn-danger">></button>
-  
-        <div class="mb-3">
-          <label for="starInput" class="form-label">Starforce total</label>
-          <input type="number" class="form-control" id="starInput" aria-describedby="starHelp">
-          <div id="starHelp" class="form-text">Input the total number of stars on your equipment</div>
-          <button type="submit" class="btn btn-danger">></button></div>
-  
-          <div class="mb-3">
-            <label for="flameInput" class="form-label">Flame total</label>
-            <br></br>
-            <label for="flameInput1" class="form-label">Main stat</label>
-            <input type="number" class="form-control" id="flameInput1">
-            <label for="flameInput2" class="form-label">Secondary stat</label>
-            <input type="number" class="form-control" id="flameInput2">
-            <label for="flameInput3" class="form-label">(m)Att</label>
-            <input type="number" class="form-control" id="flameInput3">
-            <label for="flameInput4" class="form-label">All stat (%)</label>
-            <input type="number" class="form-control" id="flameInput4">
-            <button type="submit" class="btn btn-danger">></button></div>
-            </div>
-      </form>
-
+    </div>
+  </div>
 </div>
+
+<!--WSE section-->
 
 <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">WSE</button>
 <div class="collapse multi-collapse" id="collapse5">
@@ -357,6 +406,8 @@
       <li><button class="dropdown-item" type="button" id = "wThree2" onclick="changeW2('wThree2')">Class Emblem</button></li>
     </ul>
 </div>
+
+<!--Misc Section-->
 
 <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">Misc</button>
 <div class="collapse multi-collapse" id="collapse6">
@@ -496,7 +547,8 @@
                     <li><button class="dropdown-item" type="button" id = "cOne4" onclick="changeC4('cOne4')">Thief</button></li>
                     <li><button class="dropdown-item" type="button" id = "cOne5" onclick="changeC5('cOne5')">Pirate</button></li>
                   </ul>
-
+                  <button type="button" class="btn btn-secondary" id="clearButton" onclick="saveEquips()">Save</button>
+                  <button type="button" class="btn btn-secondary" id="clearButton" onclick="clearEquips()">Clear</button>
                 </div>
             </div>
         </div>

@@ -4,12 +4,17 @@ including stars, potentials, and flames - and allows you to compare to your drea
 current to do list:
 -make it so when 1 collapsable menu opens, if there is
 another already open it closes
--make it so selecting your class under the equip window
+-make it so selecting your class under the equip window (obsolete if we implement menu grid)
 stipulates what class of gear/wse you will be offered
--make it so that clicking on a dropdown opens input fields relevant
-to the item (i.e clicking on badge gives pot and star field, but not flame)
-[figure out new solution to this?]
--the best in slot setup needs to be already set up?
+-make secondary collapsable menus (blue) with each field
+-the best in slot setup needs to be already set up? [needs new solution]
 -dynamic scaling
 -saves cookies
--clear button for equip
+
+--**HAVE DROPDOWNS SHOW SUBSECTIONS INSIDE THE DROPDOWN ITSELF 
+(I.E CLICK DROPDOWN AND HEADER IS HATS, AND THEN IT SHOWS ALL THE HATS AS PICTURES,
+THEN FURTHER DOWN IS TOPS SECTION ETC)
+-**have flame section, star input, cube pot line input, and have an add button at bottom right
+
+--**HAVE DROPDOWN MENU USE GRID OF IMAGES/NAMES THAT ARE ORGANIZED BY CLASS
+((https://misaomaki.github.io/starforce2.html))

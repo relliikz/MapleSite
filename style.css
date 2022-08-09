@@ -37,16 +37,59 @@ body {
     width:1874px;
     float:left;
 }
+
+/*headers*/
+#totemHeader{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+/*input forms*/
+#inputForm1{
+    margin-top:20px;
+}
+#flameTotalHeader{
+    margin-top:30px;
+}
+#potInput{
+    width:150px;
+}
+#starInput{
+    width:150px;
+}
+#starForm1{
+    float:right;
+    margin-top:-75px;
+}
+#flameInput1{
+    width:150px;
+}
+#flameInput2{
+    width:150px;
+}
+#flameForm2{
+    float:right;
+    margin-top:-85px;
+}
+#flameInput3{
+    width:150px;
+}
+#flameInput4{
+    width:150px;
+}
+#flameForm4{
+    float:right;
+    margin-top:-85px;
+}
+
 /* ======================
     dropdown button divs
    ====================== */
 #classOne{
     margin-top:200px;
 }
-/*headers*/
-#totemHeader{
-    margin-top:20px;
-    margin-bottom:10px;
+#clearButton{
+    margin-top:200px;
 }
 
 /*totem*/
@@ -95,7 +138,7 @@ body {
 #glovesOne{
     margin-left:10px;
 }
-#bootsOne{
+#shoesOne{
     margin-top:10px;
 }
 #shoulderOne{
@@ -129,7 +172,7 @@ body {
     margin-left:10px;
 }
 
-/* equip divs */
+/* equipW divs */
 
 #totem1{
     background-color:red;
