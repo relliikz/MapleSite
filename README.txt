@@ -3,18 +3,19 @@ including stars, potentials, and flames - and allows you to compare to your drea
 ==============================================================
 current to do list:
 -make it so when 1 collapsable menu opens, if there is
-another already open it closes
+another already open it closes (accordion?)
 -make it so selecting your class under the equip window (obsolete if we implement menu grid)
 stipulates what class of gear/wse you will be offered
 -make secondary collapsable menus (blue) with each field
 -the best in slot setup needs to be already set up? [needs new solution]
--dynamic scaling
+-solution for dynamic scaling equip window? (divs are static, maybe rescaling divs and image seperately)
 -saves cookies
+-fix flame form
+-add all the image files in
+-expand each button to have all the class equips, remove class button
+-put outline selection and function per below on each section
 
---**HAVE DROPDOWNS SHOW SUBSECTIONS INSIDE THE DROPDOWN ITSELF 
-(I.E CLICK DROPDOWN AND HEADER IS HATS, AND THEN IT SHOWS ALL THE HATS AS PICTURES,
-THEN FURTHER DOWN IS TOPS SECTION ETC)
--**have flame section, star input, cube pot line input, and have an add button at bottom right
 
---**HAVE DROPDOWN MENU USE GRID OF IMAGES/NAMES THAT ARE ORGANIZED BY CLASS
-((https://misaomaki.github.io/starforce2.html))
+--use the right side to display:
+a)the items stats and information
+b) the form to fix the flames/pot/stars underneath it

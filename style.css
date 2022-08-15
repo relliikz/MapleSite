@@ -20,22 +20,15 @@ body {
 
 #SideMenu{
     height:900px;
-    width:500px;
 }
 #MainMenu{
     height:900px;
-    width:800px;
-    margin-left:30px;
 }
 #rightMenu{
     height:900px;
-    width:550px;
-    margin-left:360px;
 }
 #footer{
     height:600px;
-    width:1874px;
-    float:left;
 }
 
 /*headers*/
@@ -92,85 +85,7 @@ body {
     margin-top:200px;
 }
 
-/*totem*/
-#totemTwo{
-    margin-left:30px;
-}
 
-#totemThree{
-    margin-left:30px;
-}
-/*ring*/
-#ringTwo{
-    margin-left:10px;
-}
-#ringThree{
-    margin-left:10px;
-}
-#ringFour{
-    margin-left:10px;
-}
-/*acc*/
-#eyeOne{
-    margin-left:10px;
-}
-#pendantOne{
-    margin-left:10px;
-}
-#pendantTwo{
-    margin-top:10px;
-}
-#beltOne{
-    margin-top:10px;
-    margin-left:10px;
-}
-#earringOne{
-    margin-top:10px;
-    margin-left:10px;
-}
-/*armour*/
-#topOne{
-    margin-left:10px;
-}
-#bottomOne{
-    margin-left:10px;
-}
-#glovesOne{
-    margin-left:10px;
-}
-#shoesOne{
-    margin-top:10px;
-}
-#shoulderOne{
-    margin-top:10px;
-    margin-left:10px;
-}
-#capeOne{
-    margin-top:10px;
-    margin-left:10px;
-}
-/*wse*/
-#secondaryOne{
-    margin-left:10px;
-}
-#emblemOne{
-    margin-left:10px;
-}
-/*misc*/
-#badgeOne{
-    margin-left:10px;
-}
-#medalOne{
-    margin-left:10px;
-}
-#androidOne{
-    margin-top:10px;
-    margin-left:10px;
-}
-#heartOne{
-    margin-top:10px;
-    margin-left:10px;
-}
 
 /* equipW divs */
 

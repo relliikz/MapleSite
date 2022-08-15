@@ -1,4 +1,12 @@
 
+function hatJS(){
+  document.getElementById('hat').style.border = "3px solid cyan";
+}
+
+function topJS(){
+  document.getElementById('top').style.border = "3px solid cyan";
+}
+
 //totem dropdown functions
 
 function changeT0(WhichTotem){
